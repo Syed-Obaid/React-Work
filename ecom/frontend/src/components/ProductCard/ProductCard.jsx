@@ -1,6 +1,6 @@
 import React from 'react'
 import './ProductCard.css'
-const ProductCard = ({image,title,description}) => {
+const ProductCard = ({image,title,description, price}) => {
 return (
     <div className='pdt'>
         <div className="max-w-xs mt-5 rounded overflow-hidden shadow-lg bg-white">
@@ -19,7 +19,7 @@ return (
                 </p>
             </div>
             <div className="px-6 pt-4 pb-2 flex items-center justify-between">
-                <span className="text-lg font-semibold text-green-600">$29.99</span>
+                <span className="text-lg font-semibold text-green-600">${price}</span>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Add to Cart
                 </button>
