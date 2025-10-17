@@ -17,13 +17,14 @@ useEffect(()=>{
   return (
     <>
       <Navbar/>
-      <Hero/>
+      <Hero img="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80"/>
+
      
      
    <div className="flex flex-wrap justify-center gap-2  mt-10">
     {
       products.map((product,index)=>(
-         <ProductCard key={index}
+        <ProductCard key={index}
         title = {product.title || product.name}
         image = {product.image}
         price= {product.price}
@@ -34,6 +35,7 @@ useEffect(()=>{
      
       </div>
 
+    <Hero reverse img="https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?semt=ais_hybrid&w=740&q=80"/>
 
       <Footer/>
     </>
