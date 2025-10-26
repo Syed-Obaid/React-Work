@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const { connectDB } = require('./config/database');
 const { User } = require('./model/todosmodel');
-
+require('dotenv').config();
 const PORT = 3000;
 const app = express();
 
@@ -11,7 +11,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.redirect(process.env.FRONTEND_URL);
 });
 
 app.get('/todos', async (req, res) => {
