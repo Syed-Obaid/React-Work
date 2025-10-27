@@ -11,7 +11,8 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.redirect(process.env.FRONTEND_URL);
+  // res.redirect(process.env.FRONTEND_URL);
+  res.json({ message: 'Welcome to the Todo API' });
 });
 
 app.get('/todos', async (req, res) => {
