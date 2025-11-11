@@ -15,7 +15,7 @@ function Footer() {
                
                 <div className="rounded-full p-3 shadow-lg">
                   <img 
-                    src="/public/sp_white_logo.png" 
+                    src="https://sindhpolice.gov.pk/front_end/icons/sp_white_logo.png" 
                     alt="Sindh Police Logo" 
                     className="w-20 h-20"
                   />

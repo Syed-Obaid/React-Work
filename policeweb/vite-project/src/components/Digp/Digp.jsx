@@ -10,7 +10,7 @@ function Digp() {
             <div className="w-1/3">
              <div className='flex flex-col items-center justify-center  mb-4'>
                <img 
-                src="/public/QvhC2c6n41gyfaeBsJI2BGEifRIrE1mgUuSgJsFA.jpg" 
+                src="https://sindhpolice.gov.pk/storage/psp_imgs/QvhC2c6n41gyfaeBsJI2BGEifRIrE1mgUuSgJsFA.jpg" 
                 alt="" 
                 className="w-60 h-60 bg-white p-1 object-cover"
               />
